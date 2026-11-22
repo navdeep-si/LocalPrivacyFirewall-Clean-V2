@@ -1,0 +1,12 @@
+LOCAL PRIVACY FIREWALL V2 — START FRESH
+
+1. Create an EMPTY GitHub repository. Do not initialize a sample README or a blank CI workflow.
+2. EXTRACT the ZIP on your computer.
+3. Upload the CONTENTS of the extracted LocalPrivacyFirewall_Clean_V2 folder to the repository ROOT.
+4. Verify .github/workflows/build-apk.yml is visible in the repo.
+5. Actions > Build Android Debug APK > most recent run.
+6. After successful compile, download Artifacts > LocalPrivacyFirewall-debug-apk.
+7. Unzip artifact to find app-debug.apk and install it on your Samsung Fold.
+
+Compiled against stable Android 16 SDK 36; compatible with Android 14-17.
+A green sample CI run is NOT a finished APK build.
